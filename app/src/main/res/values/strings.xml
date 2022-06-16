@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">AlarmClock</string>
+    <string name="api_key">b1d50238861b4fceb96d128122bd2470</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pause">Pause</string>
+    <string name="start">Start</string>
+    <string name="reset">Reset</string>
+    <string name="cancel">Cancel</string>
+    <string name="news">News</string>
+    <string name="alarm">Alarm</string>
+    <string name="weather">Weather</string>
+    <string name="stopwatch">Stopwatch</string>
+    <string name="banner_adunit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="intro">The ever-growing advent of technology has revolutionized the entire world. Any field that we step in or even observe is deeply impacted by technology.
+    Coding forms the foundational basis of all the software that are developed and is an integral skill to learn these days. In fact, there’s a full-fledged industry that exists in the market today which only deals with softwares and software programming tutorials.
+    Coding, as many say, is not a one-time learning process. It constantly keeps on evolving and changing. There are several languages in which coding is done these days. These include Python, Dart, C, C++.</string>
+    <string name="html">
+        <a href="https://www.w3schools.com/html/html_intro.asp">HTML is the standard markup language for Web pages.
+         With HTML you can create your own Website.
+         HTML is easy to learn - You will enjoy it!</a>
+    </string>
+    <string name="css">
+        <a href="https://www.w3schools.com/css/css_intro.asp">CSS is the language we use to style an HTML document.
+         CSS describes how HTML elements should be displayed.
+         This tutorial will teach you CSS from basic to advanced.</a>
+    </string>
+    <string name="python">
+        <a href="https://www.w3schools.com/python/python_intro.asp">Python is a popular programming language.
+         Python can be used on a server to create web applications.</a>
+    </string>
+    <string name="java">
+        <a href="https://www.w3schools.com/java/java_intro.asp">Java is a popular programming language.
+         Java is used to develop mobile apps, web apps, desktop apps, games and much more.</a>
+    </string>
+    <string name="exit">These are some of the coding languages which are known to have great influence in computer sector. These languages are known to rule the current sector of IT.
+    Learn more by visiting <a href="https://www.w3schools.com/">here</a>
+    </string>
+    <string name="study">study</string>
+</resources>

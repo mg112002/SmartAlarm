@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".alarm.alarm">
+
+    <TextClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/currentTime"
+        android:textSize="35sp"
+        android:visibility="gone"
+        tools:targetApi="jelly_bean_mr1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:gravity="center_horizontal"
+        android:text="Alarm : Time"
+        android:id="@+id/alarmtime"
+        android:textAlignment="center"
+        android:textColor="@color/red"
+        android:textSize="35sp" />
+
+    <Button
+        android:id="@+id/timepicker"
+        android:layout_width="357dp"
+        android:layout_height="77dp"
+        android:text="Select Alarm"
+        android:layout_marginTop="150dp"
+        android:layout_marginHorizontal="25dp"
+        android:background="@drawable/gradient"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/choosetone"
+        android:layout_width="247dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/gradient1"
+        android:text="Choose Ringtone"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/customtone"
+        android:layout_width="247dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="320dp"
+        android:background="@drawable/gradient1"
+        android:text="Choose Custom Ringtone"
+        android:textColor="@color/black"
+        android:textSize="15sp"/>
+
+    <Button
+        android:id="@+id/set"
+        android:layout_width="357dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginHorizontal="25dp"
+        android:background="@drawable/gradient"
+        android:text="Set Alarm"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="357dp"
+        android:layout_height="77dp"
+        android:layout_marginHorizontal="25dp"
+        android:layout_marginVertical="500dp"
+        android:background="@drawable/gradient"
+        android:text="Cancel Alarm"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+</RelativeLayout>

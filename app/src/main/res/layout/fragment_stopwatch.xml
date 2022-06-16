@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".stopwatch.stopwatch">
+
+    <Chronometer
+        android:id="@+id/chronometer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient"
+        android:id="@+id/startbtn"
+        android:layout_marginTop="15dp"
+        android:text="@string/start"
+        android:textSize="30sp" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient"
+        android:id="@+id/pausebtn"
+        android:layout_marginTop="15dp"
+        android:text="@string/pause"
+        android:textSize="30sp"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient"
+        android:id="@+id/resetbtn"
+        android:layout_marginTop="15dp"
+        android:text="@string/reset"
+        android:textSize="30sp"/>
+
+
+</LinearLayout>
